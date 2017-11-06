@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: 'AvenirNext','Helvetica Neue',Arial,Helvetica,sans-serif;
+	background-color: #062514;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+/* Container */
+.container {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #062514;
+}
+/* Navigation */
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding-top: 1px;
+	margin: 0px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #000000;
+}
+header nav ul {
+	background-color: #FFFFFF;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	padding: 0px;
+}
+nav ul li {
+	margin-left: 10px;
+	padding: 0px;
+	color: #FFFFFF;
+	display: inline;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #000000;
+	text-decoration: underline;
+}
+/*Image container*/
+.image_container {
+	width: 100%;
+	height: auto;
+    text-align: center;
+}
+
+.image_container img {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+    vertical-align: middle;
+}
+.img_border {
+	border: 10px solid transparent;
+}
+/* Spotlight Section */
+.spotlight {
+	background-color: #062514;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.hero_header {
+	color: #FFFFFF;
+	text-align: left;
+	margin: 0px;
+	letter-spacing: 4px;
+}
+.light {
+	font-weight: bold;
+	color: #717070;
+}
+.tagline {
+	text-align: left;
+	color: #FFFFFF;
+	margin-top: 4px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+@media only screen and (max-device-width: 480px) {
+	nav ul li {
+		font-size: 12px;
+	}
+}
