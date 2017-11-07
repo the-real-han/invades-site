@@ -16,6 +16,11 @@ body {
 	padding: 0px;
 	background-color: #062514;
 }
+.inner_container {
+	margin: 0px;
+	padding: 0px;
+	background-color: #062514;
+}
 /* Navigation */
 header {
 	position: fixed;
@@ -52,44 +57,36 @@ ul li:hover a {
 	text-decoration: underline;
 }
 /*Image container*/
-.image_container {
-	width: 100%;
-	height: auto;
-    text-align: center;
-}
-
-.image_container img {
-	max-width: 100%;
-	height: auto;
-	margin: auto;
-    vertical-align: middle;
+.img_icon {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding-right: 50px;
 }
 .img_border {
 	border: 10px solid transparent;
 }
+
 /* Spotlight Section */
 .spotlight {
 	background-color: #062514;
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-bottom: 50px;
+	text-align: center;
 }
 .hero_header {
 	color: #FFFFFF;
 	text-align: left;
-	margin: 0px;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 }
 .light {
+	text-align: left;
 	font-weight: bold;
 	color: #717070;
 }
-.tagline {
-	text-align: left;
-	color: #FFFFFF;
-	margin-top: 4px;
-	font-weight: lighter;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 @media only screen and (max-device-width: 480px) {
