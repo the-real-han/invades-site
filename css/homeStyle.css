@@ -2,19 +2,17 @@
 /* Body */
 body {
 	font-family: 'AvenirNext','Helvetica Neue',Arial,Helvetica,sans-serif;
-	background-color: #00405A;
+	background-color: #062514;
 	height: 100vh;
 	margin: 0px;
 	padding: 0px;
-	font-style: normal;
-	font-weight: 200;
 }
 /* Container */
 .container {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-color: #00405A;
+	background-color: #062514;
 }
 /* Navigation */
 header {
@@ -24,7 +22,6 @@ header {
 	padding-top: 1px;
 	margin: 0px;
 	background-color: #FFFFFF;
-	border-bottom: 1px solid #000000;
 }
 header nav ul {
 	background-color: #FFFFFF;
@@ -38,9 +35,9 @@ nav ul li {
 	padding: 0px;
 	color: #FFFFFF;
 	display: inline;
-	font-size: 18px;
+	font-size: 16px;
+	font-weight: 600;
 	letter-spacing: 1px;
-	font-weight: bold;
 	transition: all 0.3s linear;
 }
 ul li a {
@@ -48,8 +45,10 @@ ul li a {
 	text-decoration: none;
 }
 ul li:hover a {
-	color: #000000;
-	text-decoration: underline;
+	border-bottom: 2px solid rgba(38, 38, 38, 0.5);
+}
+.underline {
+	border-bottom: 2px solid #000000;
 }
 /*Image container*/
 .image_container {
@@ -66,7 +65,7 @@ ul li:hover a {
 }
 /* Spotlight Section */
 .spotlight {
-	background-color: #00405A;
+	background-color: #062514;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -82,5 +81,6 @@ footer small {
 @media only screen and (max-device-width: 480px) {
 	nav ul li {
 		font-size: 12px;
+		font-weight: 500;
 	}
 }
