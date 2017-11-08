@@ -2,7 +2,7 @@
 /* Body */
 body {
 	font-family: 'AvenirNext','Helvetica Neue',Arial,Helvetica,sans-serif;
-	background-color: #062514;
+	background-color: #FFFC00;
 	height: 100vh;
 	margin: 0px;
 	padding: 0px;
@@ -12,19 +12,7 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-color: #062514;
-}
-/*Image container*/
-.image_container {
-	width: 100%;
-	height: auto;
-    text-align: center;
-}
-.image_container img {
-	max-width: 100%;
-	height: auto;
-	margin: auto;
-    vertical-align: middle;
+	background-color: #FFFC00;
 }
 /* Spotlight Section */
 .spotlight {
