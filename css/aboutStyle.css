@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #E74C3C;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+}
+/* Container */
+.container {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #E74C3C;
+}
+/* Spotlight Section */
+.spotlight {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}

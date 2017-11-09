@@ -18,4 +18,32 @@ body {
 .spotlight {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+/*content*/
+.content {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: italic;
+	color: #ffffff;
+	font-size: 2em;
+}
+.excuse {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	color: #ffffff;
+	font-size: 2em;
+}
+
+@media only screen and (max-device-width: 480px) {
+	.content {
+		font-size: .75em;
+	}
+	.excuse {
+		font-size: 1em;
+	}
+	.spotlight {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }
