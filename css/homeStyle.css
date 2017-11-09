@@ -3,31 +3,32 @@
 body {
 	font-family: 'AvenirNext','Helvetica Neue',Arial,Helvetica,sans-serif;
 	background-color: #062514;
-	height: 100vh;
 	margin: 0px;
 	padding: 0px;
 }
 /* Container */
 .container {
 	width: 100%;
+	height: 100%;
 	margin: 0px;
 	padding: 0px;
 	background-color: #062514;
 }
 /*Image container*/
-.image_container {
-	width: 100%;
-	height: auto;
-    text-align: center;
-}
-.image_container img {
-	max-width: 100%;
-	height: auto;
-	margin: auto;
-    vertical-align: middle;
+img {
+	width: auto;
+	height: 80vh;
+	display: block;
+  margin: 0 auto;
+  clear: right;
 }
 /* Spotlight Section */
 .spotlight {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	height: 80vh;
+}
+@media only screen and (max-device-width: 520px) {
+	img {
+		width: 80%;
+		height: auto;
+	}
 }

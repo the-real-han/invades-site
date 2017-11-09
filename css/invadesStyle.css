@@ -29,32 +29,32 @@ body {
 }
 /* Spotlight Section */
 .spotlight {
-	position: relative;
 	padding-top: 50px;
 	text-align: center;
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
-.text_line {
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
-	color: #ffffff;
-	font-size: 2em;
-	font-weight: 800;
 }
 table {
 	border-spacing: 20px;
 }
-@media only screen and (max-device-width: 480px) {
-	.text_line {
-		font-size: 1em;
-		font-weight: 700;
-	}
+/*normal mode*/
+#desktop_table {
+    display: block;
+}
+#mobile_table {
+    display: none;
+}
+
+@media only screen and (max-width: 1025px) {
 	table {
 		border-spacing: 5px;
 	}
 	.img_logo {
 		width: 50%;
+	}
+	/*normal mode*/
+	#desktop_table {
+	    display: none;
+	}
+	#mobile_table {
+	    display: block;
 	}
 }
