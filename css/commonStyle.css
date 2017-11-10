@@ -25,7 +25,7 @@ header {
 	float: right;
 }
 .filler {
-	height: 15vh;
+	height: 5vh;
 }
 
 @media only screen and (max-device-width: 480px) {
