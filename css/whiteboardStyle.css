@@ -23,10 +23,11 @@ body {
 }
 /*content*/
 .content {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-style: italic;
 	color: #ffffff;
 	font-size: 2em;
+	font-weight: 800;
 }
 .excuse {
 	font-family: 'Roboto', sans-serif;
