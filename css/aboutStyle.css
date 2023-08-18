@@ -2,7 +2,6 @@
 /* Body */
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color: #E74C3C;
 	height: 100vh;
 	margin: 0px;
 	padding: 0px;
@@ -12,8 +11,8 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-color: #E74C3C;
 }
+
 /* Spotlight Section */
 .spotlight {
 	padding-top: 50px;
@@ -59,7 +58,6 @@ table tr td {
     background-color: #ffffff; /* Green */
 		border-radius: 12px;
     border: none;
-    color: #E74C3C;
     padding: 8px 10px;
     text-align: center;
     text-decoration: none;

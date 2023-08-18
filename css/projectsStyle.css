@@ -2,7 +2,7 @@
 /* Body */
 body {
 	font-family: 'AvenirNext','Helvetica Neue',Arial,Helvetica,sans-serif;
-	background-color: #ffd155;
+	background-color: #ffd155 !important;
 	height: 100vh;
 	margin: 0px;
 	padding: 0px;
@@ -13,6 +13,11 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: #ffd155;
+}
+.content {
+	color: #ffffff;
+	font-size: 1.5em;
+	line-height: 1.5;
 }
 /*Image */
 .img_main {
@@ -41,6 +46,10 @@ table {
 }
 #mobile_table {
     display: none;
+}
+
+.faded {
+	opacity: 0.4;
 }
 
 @media only screen and (max-device-width: 1025px) {
